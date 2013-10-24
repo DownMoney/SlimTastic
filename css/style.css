@@ -1,0 +1,149 @@
+html, body{
+	background: #353c42;
+	color: #dee1e8;
+}
+
+.userName{
+	color: #42b0d8 !important;
+}
+
+.navbar{
+	-moz-box-shadow: 2px 2px 20px rgba(0,0,0,0.6);
+	-webkit-box-shadow: 2px 2px 20px rgba(0,0,0,0.6);
+	box-shadow: 2px 2px 20px rgba(0,0,0,0.6);
+}
+
+.body{
+	margin-top: 100px;
+}
+
+.box{
+	border: 1px solid #272c30;
+	background: #272c30;
+	border-radius: 10px;
+	padding: 10px;
+	margin-bottom: 20px;
+	-moz-box-shadow: 2px 2px 20px rgba(0,0,0,0.6);
+	-webkit-box-shadow: 2px 2px 20px rgba(0,0,0,0.6);
+	box-shadow: 2px 2px 20px rgba(0,0,0,0.6);
+}
+
+
+
+.form-group{
+	margin-left: 50px;
+}
+
+.form-group p, .left p, .right p{
+	font-weight: 100;
+	color: #c8cad0;
+	text-align: center;
+}
+
+.card{
+	width: 300px;
+	font-weight: 100;
+	float: left;
+	margin-left: 50px;
+
+}
+
+.cards{
+
+}
+
+.left{
+	width: 150px;
+	float: left;
+	text-align: center;
+}
+
+.right{
+	width: 120px;
+	float: right;
+	text-align: center;
+}
+
+.info{
+	border-top: 1px solid #353c42;
+	clear: both;
+}
+
+.price{	
+	text-align: center;
+}
+
+button{
+	background: #777e84 !important;
+	border-radius: 0px !important;
+	border: 0px !important;
+}
+
+.price button{
+	margin-top: 10px;
+
+}
+
+.price ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+
+.price ul li{
+	display:inline;
+	width:33.3%;
+	float: left;	
+}
+
+.price ul li:not(:last-child){
+	border-right: 1px solid #353c42;
+}
+
+.price ul li h5{
+	font-weight: 100 !important;
+	color: #c8cad0;
+	
+}
+
+.instructions{
+	width:700px;
+	float: left;
+	margin-left: 50px;
+	border-left: 1px solid #dee1e8;
+	padding-left: 10px;
+}
+
+.current{
+	background: rgb(248, 248, 248);
+	color: #353c42;
+}
+
+.box small{
+	color: #42b0d8;
+}
+
+.form-signin .form-control {
+  position: relative;
+  font-size: 16px;
+  height: auto;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.form-signin input[type="text"] {
+  margin-bottom: -1px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.login{
+	margin: 0 auto !important;
+}
